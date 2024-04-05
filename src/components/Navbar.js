@@ -53,7 +53,10 @@ const Navbar = () => {
               <img src='./images/Trehouse.png' style={logostyle} />
             </li>
 
-            <li className='listItem purpbtnm' style={{ marginLeft: "2.4vw" }}>
+            <li
+              className='listItem purpbtnm'
+              style={{ marginLeft: "2.4vw", background: "rgba(27, 28, 49, 1)" }}
+            >
               <a
                 className='aw'
                 href='https://calendly.com/trehouse-bd/30min?month=2024-04'
@@ -121,7 +124,10 @@ const Navbar = () => {
               <ul className='nestedList'>
                 <li
                   className='listItem purpbtn'
-                  style={{ marginLeft: "2.4vw" }}
+                  style={{
+                    marginLeft: "2.4vw",
+                    background: "rgba(27, 28, 49, 1)",
+                  }}
                 >
                   <a
                     className='aw'

@@ -155,7 +155,7 @@ a {
 }
 
 .heroleftm>.row>div:nth-child(2)>button {
-    padding: 1.2vw 4vw;
+    padding: 3vw 9vw;
     border-radius: 15px;
     border: none;
     background-color: #1B1C31;
@@ -450,6 +450,16 @@ a {
     font-size: 12px;
 }
 
+.sec4textm>.row>p>img {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
 .sec4text>div:first-child {
     width: 40%;
 }
@@ -463,6 +473,7 @@ a {
 .sec4text>.row {
     margin-top: 20px;
 }
+
 
 .sec4text>.row>p {
     margin-left: 10px;

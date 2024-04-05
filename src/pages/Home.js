@@ -51,7 +51,9 @@ function Home() {
                     <input placeholder='shakir260@gmail.com' />
                   </div>
                   <div>
-                    <button style={{ background: "black" }}>Submit</button>
+                    <button style={{ background: "rgba(27, 28, 49, 1)" }}>
+                      Submit
+                    </button>
                   </div>
                 </div>
                 <div className='row ticks'>
@@ -129,7 +131,7 @@ function Home() {
                 </p>
                 <button
                   className='purpbtn btn1m'
-                  style={{ background: "black" }}
+                  style={{ background: "rgba(27, 28, 49, 1)" }}
                 >
                   <a
                     style={{ color: "white" }}
@@ -240,7 +242,7 @@ function Home() {
                 </p>
                 <button
                   className='purpbtn orange btn2m'
-                  style={{ background: "black" }}
+                  style={{ background: "rgba(27, 28, 49, 1)" }}
                 >
                   <a
                     style={{ color: "white" }}
@@ -373,7 +375,7 @@ function Home() {
                 </div>
                 <button
                   className='yellow btn3m'
-                  style={{ background: "black" }}
+                  style={{ background: "rgba(27, 28, 49, 1)" }}
                 >
                   <a
                     style={{ color: "white" }}
@@ -530,7 +532,7 @@ function Home() {
                   <button
                     className='yellow btn4m'
                     style={{
-                      background: "black",
+                      background: "rgba(27, 28, 49, 1)",
                       fontWeight: "700",
                       margin: "15px",
                     }}
@@ -623,7 +625,9 @@ function Home() {
                     <input placeholder='shakir260@gmail.com' />
                   </div>
                   <div>
-                    <button style={{ background: "black" }}>Submit</button>
+                    <button style={{ background: "rgba(27, 28, 49, 1)" }}>
+                      Submit
+                    </button>
                   </div>
                 </div>
                 <div className='row ticks'>
@@ -688,7 +692,7 @@ function Home() {
                 </p>
                 <button
                   className='purpbtn btn1'
-                  style={{ background: "black" }}
+                  style={{ background: "rgba(27, 28, 49, 1)" }}
                 >
                   <a
                     className='aw'
@@ -798,7 +802,7 @@ function Home() {
                 </p>
                 <button
                   className='purpbtn orange btn2'
-                  style={{ background: "black", color: "white" }}
+                  style={{ background: "rgba(27, 28, 49, 1)", color: "white" }}
                 >
                   <a
                     className='aw'
@@ -918,7 +922,7 @@ function Home() {
                 </div>
                 <button
                   className='yellow btn3'
-                  style={{ background: "black", color: "white" }}
+                  style={{ background: "rgba(27, 28, 49, 1)", color: "white" }}
                 >
                   <a
                     style={{ color: "white" }}
@@ -1043,7 +1047,7 @@ function Home() {
                   <button
                     className='yellow btn4'
                     style={{
-                      background: "black",
+                      background: "rgba(27, 28, 49, 1)",
                       fontWeight: "700",
                       margin: "15px",
                       color: "white",
