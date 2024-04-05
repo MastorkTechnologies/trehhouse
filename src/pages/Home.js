@@ -120,7 +120,7 @@ function Home() {
                 viewport={{ once: true }}
                 className='sustainm'
               >
-                <p style={{ color: "white" }} >GROWTH</p>
+                <p style={{ color: "black" }} >GROWTH</p>
                 <h2>Sustainable Model</h2>
                 <p style={{ textAlign: "justify" }}>
                   We ensure a sustainable model built on long-term
