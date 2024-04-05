@@ -51,7 +51,7 @@ function Home() {
                     <input placeholder='shakir260@gmail.com' />
                   </div>
                   <div>
-                    <button>Submit</button>
+                    <button style={{ background: "black" }}>Submit</button>
                   </div>
                 </div>
                 <div className='row ticks'>
@@ -132,6 +132,7 @@ function Home() {
                   style={{ background: "black" }}
                 >
                   <a
+                    style={{ color: "white" }}
                     className='aw'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                   >
@@ -218,16 +219,16 @@ function Home() {
             <div className='button-overlay'>
               <img src='./images/midsecmnotxt.png' style={{ width: "100%" }} />
               <motion.div
-                animate={{ translateY: [10, -10, 10] }}
-                transition={{
-                  delay: 0.2,
-                  duration: 5,
-                  ease: "easeInOut",
-                  times: [0, 0.2, 0.5, 0.8, 1],
-                  repeat: Infinity,
-                  repeatDelay: 0,
-                  repeatType: "reverse",
-                }}
+                // animate={{ translateY: [10, -10, 10] }}
+                // transition={{
+                //   delay: 0.2,
+                //   duration: 5,
+                //   ease: "easeInOut",
+                //   times: [0, 0.2, 0.5, 0.8, 1],
+                //   repeat: Infinity,
+                //   repeatDelay: 0,
+                //   repeatType: "reverse",
+                // }}
                 className='handshakem'
               >
                 <h2>Push your company to the next level.</h2>
@@ -237,8 +238,12 @@ function Home() {
                   while you enjoy the rewards. Partner with confidence and let's
                   elevate your business together.
                 </p>
-                <button className='purpbtn orange btn2m'>
+                <button
+                  className='purpbtn orange btn2m'
+                  style={{ background: "black" }}
+                >
                   <a
+                    style={{ color: "white" }}
                     className='aw'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                   >
@@ -366,8 +371,12 @@ function Home() {
                     {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
                   </motion.div>
                 </div>
-                <button className='yellow btn3m'>
+                <button
+                  className='yellow btn3m'
+                  style={{ background: "black" }}
+                >
                   <a
+                    style={{ color: "white" }}
                     className='ab'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                   >
@@ -520,9 +529,14 @@ function Home() {
                     <input className='forminpm' placeholder='Password'/> */}
                   <button
                     className='yellow btn4m'
-                    style={{ fontWeight: "700", margin: "15px" }}
+                    style={{
+                      background: "black",
+                      fontWeight: "700",
+                      margin: "15px",
+                    }}
                   >
                     <a
+                      style={{ color: "white" }}
                       className='ab'
                       href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                     >
@@ -609,7 +623,7 @@ function Home() {
                     <input placeholder='shakir260@gmail.com' />
                   </div>
                   <div>
-                    <button>Submit</button>
+                    <button style={{ background: "black" }}>Submit</button>
                   </div>
                 </div>
                 <div className='row ticks'>
@@ -672,7 +686,10 @@ function Home() {
                   partner in driving scalable growth. Join us in shaping the
                   future of your enterprise.
                 </p>
-                <button className='purpbtn btn1'>
+                <button
+                  className='purpbtn btn1'
+                  style={{ background: "black" }}
+                >
                   <a
                     className='aw'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
@@ -779,7 +796,10 @@ function Home() {
                   while you enjoy the rewards. Partner with confidence and let's
                   elevate your business together.
                 </p>
-                <button className='purpbtn orange btn2'>
+                <button
+                  className='purpbtn orange btn2'
+                  style={{ background: "black", color: "white" }}
+                >
                   <a
                     className='aw'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
@@ -896,8 +916,12 @@ function Home() {
                     {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
                   </motion.div>
                 </div>
-                <button className='yellow btn3'>
+                <button
+                  className='yellow btn3'
+                  style={{ background: "black", color: "white" }}
+                >
                   <a
+                    style={{ color: "white" }}
                     className='ab'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                   >
@@ -1018,9 +1042,15 @@ function Home() {
                     <input className='forminp' placeholder='Password'/> */}
                   <button
                     className='yellow btn4'
-                    style={{ fontWeight: "700", margin: "15px" }}
+                    style={{
+                      background: "black",
+                      fontWeight: "700",
+                      margin: "15px",
+                      color: "white",
+                    }}
                   >
                     <a
+                      style={{ color: "white" }}
                       className='ab'
                       href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                     >

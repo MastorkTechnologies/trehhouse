@@ -332,8 +332,8 @@ a {
 
 .handshakem {
     position: absolute;
-    top: 0%;
-    left: 10%;
+    top: 6%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
