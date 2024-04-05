@@ -400,7 +400,7 @@ function Home() {
               />
               <div className='sec4textm'>
                 <div>
-                  <h2 style={{ color: "#FFDC60" }}>
+                  <h2 style={{ color: "#fff" }}>
                     Driving Growth Through Innovative Solutions
                   </h2>
                 </div>
@@ -943,9 +943,11 @@ function Home() {
               style={{ padding: "5% 10%" }}
             >
               <img src='./images/sec4notxt.png' style={{ width: "80%" }} />
-              <div className='row sec4text'>
+              <div className='row sec4text' style={{ color: "white" }}>
                 <div>
-                  <h2>Driving Growth Through Innovative Solutions</h2>
+                  <h2 style={{ color: "white" }}>
+                    Driving Growth Through Innovative Solutions
+                  </h2>
                 </div>
                 <div className='row' style={{ marginLeft: "20px" }}>
                   <p>
