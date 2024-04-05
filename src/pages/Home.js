@@ -72,9 +72,22 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className='herorightm' style={{ width: "100%" }}>
+            <motion.div
+              animate={{ translateY: [10, -10, 10] }}
+              transition={{
+                delay: 0.2,
+                duration: 5,
+                ease: "easeInOut",
+                times: [0, 0.2, 0.5, 0.8, 1],
+                repeat: Infinity,
+                repeatDelay: 0,
+                repeatType: "reverse",
+              }}
+              className='herorightm'
+              style={{ width: "100%" }}
+            >
               <img src='./images/heroimgm.png' style={{ width: "100%" }} />
-            </div>
+            </motion.div>
           </section>
           {/* <img src='./images/Companiesm.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/> */}
           <section id='ourmodel'>
@@ -114,7 +127,10 @@ function Home() {
                   partner in driving scalable growth. Join us in shaping the
                   future of your enterprise.
                 </p>
-                <button className='purpbtn btn1m'>
+                <button
+                  className='purpbtn btn1m'
+                  style={{ background: "black" }}
+                >
                   <a
                     className='aw'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
@@ -138,7 +154,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 1, delay: 0.1 }}
                 viewport={{ once: true }}
                 className='pt1m'
               >
@@ -162,7 +178,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 1, delay: 0.1 }}
                 viewport={{ once: true }}
                 className='pt2m'
               >
@@ -186,7 +202,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 1, delay: 0.1 }}
                 viewport={{ once: true }}
                 className='pt3m'
               >
@@ -201,7 +217,19 @@ function Home() {
           <section>
             <div className='button-overlay'>
               <img src='./images/midsecmnotxt.png' style={{ width: "100%" }} />
-              <div className='handshakem'>
+              <motion.div
+                animate={{ translateY: [10, -10, 10] }}
+                transition={{
+                  delay: 0.2,
+                  duration: 5,
+                  ease: "easeInOut",
+                  times: [0, 0.2, 0.5, 0.8, 1],
+                  repeat: Infinity,
+                  repeatDelay: 0,
+                  repeatType: "reverse",
+                }}
+                className='handshakem'
+              >
                 <h2>Push your company to the next level.</h2>
                 <p>
                   Embark on a path to success with TRĒhouse. Our handshake
@@ -217,18 +245,45 @@ function Home() {
                     Book a Call
                   </a>
                 </button>
-              </div>
+              </motion.div>
               <div id='Hww' className='absdivm'>
-                <div className='sec3cardheadm'>
+                <motion.div
+                  initial={{ scale: 1, opacity: 0, translateY: "20px" }}
+                  animate={{ scale: 1, opacity: 1, translateY: 0 }}
+                  transition={{
+                    type: "tween",
+                    ease: "easeOut",
+                    duration: 2,
+                    delay: 0.2,
+                  }}
+                  className='sec3cardheadm'
+                >
                   <h2>We help your business grow faster.</h2>
                   <p>
                     Time is precious in the pursuit of growth. Schedule a
                     consultation with our expert advisors to explore new avenues
                     for your business. Let's make progress happen together.
                   </p>
-                </div>
+                </motion.div>
                 <div className='dc-containerm'>
-                  <div className='darkcardm'>
+                  <motion.div
+                    variants={{
+                      hidden: {
+                        opacity: 0,
+                        y: -20,
+                      },
+
+                      visible: {
+                        opacity: 1,
+                        y: 0,
+                      },
+                    }}
+                    initial='hidden'
+                    whileInView='visible'
+                    transition={{ duration: 2, delay: 0.1 }}
+                    viewport={{ once: true }}
+                    className='darkcardm'
+                  >
                     <img
                       src='./images/Vector.png'
                       style={{
@@ -243,8 +298,25 @@ function Home() {
                       insights for your success.
                     </p>
                     {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
-                  </div>
-                  <div className='darkcardm'>
+                  </motion.div>
+                  <motion.div
+                    variants={{
+                      hidden: {
+                        opacity: 0,
+                        y: -20,
+                      },
+
+                      visible: {
+                        opacity: 1,
+                        y: 0,
+                      },
+                    }}
+                    initial='hidden'
+                    whileInView='visible'
+                    transition={{ duration: 2, delay: 0.1 }}
+                    viewport={{ once: true }}
+                    className='darkcardm'
+                  >
                     <img
                       src='./images/flower.png'
                       style={{
@@ -259,8 +331,25 @@ function Home() {
                       triumph.
                     </p>
                     {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
-                  </div>
-                  <div className='darkcardm'>
+                  </motion.div>
+                  <motion.div
+                    variants={{
+                      hidden: {
+                        opacity: 0,
+                        y: -20,
+                      },
+
+                      visible: {
+                        opacity: 1,
+                        y: 0,
+                      },
+                    }}
+                    initial='hidden'
+                    whileInView='visible'
+                    transition={{ duration: 2, delay: 0.1 }}
+                    viewport={{ once: true }}
+                    className='darkcardm'
+                  >
                     <img
                       src='./images/sun.png'
                       style={{
@@ -275,7 +364,7 @@ function Home() {
                       transformative outcomes.
                     </p>
                     {/* <p style={{color:"#01966B", fontSize:"18px"}}>Read More <LiaLongArrowAltRightSolid style={{position:'relative', top:"3px"}} /></p> */}
-                  </div>
+                  </motion.div>
                 </div>
                 <button className='yellow btn3m'>
                   <a
@@ -289,7 +378,11 @@ function Home() {
             </div>
           </section>
           <section>
-            <div className='button-overlay'>
+            <motion.div
+              initial={{ y: -24, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              className='button-overlay'
+            >
               <img
                 src='./images/3ptm.png'
                 style={{ width: "70%", padding: "15%" }}
@@ -322,7 +415,7 @@ function Home() {
                   <p>Expertise-Driven Solutions</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </section>
           {/* <section>
             <div className='casedivm'>
@@ -374,9 +467,21 @@ function Home() {
                   paddingLeft: "10vw",
                   color: "white",
                   paddingRight: "5vw",
+                  top: "50%",
+                  left: "50%",
                 }}
               >
-                <div style={{ padding: "3vw" }}>
+                <motion.div
+                  initial={{ scale: 1, opacity: 0, translateY: "20px" }}
+                  animate={{ scale: 1, opacity: 1, translateY: 0 }}
+                  transition={{
+                    type: "tween",
+                    ease: "easeOut",
+                    duration: 2,
+                    delay: 0.2,
+                  }}
+                  style={{ padding: "3vw" }}
+                >
                   <p
                     style={{
                       margin: "0px",
@@ -409,7 +514,7 @@ function Home() {
                     collaboration opportunities and pave the way for shared
                     success. Let's shape the future of your enterprise together.
                   </p>
-                </div>
+                </motion.div>
                 <div className='formm'>
                   {/* <input className='forminpm' placeholder='Email Address'/>
                     <input className='forminpm' placeholder='Password'/> */}
