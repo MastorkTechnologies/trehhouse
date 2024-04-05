@@ -120,7 +120,7 @@ function Home() {
                 viewport={{ once: true }}
                 className='sustainm'
               >
-                <p>GROWTH</p>
+                <p style={{ color: "white" }} >GROWTH</p>
                 <h2>Sustainable Model</h2>
                 <p style={{ textAlign: "justify" }}>
                   We ensure a sustainable model built on long-term
@@ -375,10 +375,10 @@ function Home() {
                 </div>
                 <button
                   className='yellow btn3m'
-                  style={{ background: "rgba(27, 28, 49, 1)" }}
+                  style={{ background: "white" }}
                 >
                   <a
-                    style={{ color: "white" }}
+                    style={{ color: "black" }}
                     className='ab'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                   >
@@ -681,7 +681,7 @@ function Home() {
                 }}
                 className='sustain'
               >
-                <p>GROWTH</p>
+                <p style={{color:"black"}}>GROWTH</p>
                 <h2>Sustainable Model</h2>
                 <p style={{ textAlign: "justify" }}>
                   We ensure a sustainable model built on long-term
@@ -922,10 +922,10 @@ function Home() {
                 </div>
                 <button
                   className='yellow btn3'
-                  style={{ background: "rgba(27, 28, 49, 1)", color: "white" }}
+                  style={{ background: "white", color: "white" }}
                 >
                   <a
-                    style={{ color: "white" }}
+                    style={{ color: "black" }}
                     className='ab'
                     href='https://calendly.com/trehouse-bd/30min?month=2024-04'
                   >
