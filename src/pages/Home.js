@@ -532,7 +532,7 @@ function Home() {
                   <button
                     className='yellow btn4m'
                     style={{
-                      background: "rgba(27, 28, 49, 1)",
+                      background: "rgb(0, 0, 0)",
                       fontWeight: "700",
                       margin: "15px",
                     }}
@@ -1049,7 +1049,7 @@ function Home() {
                   <button
                     className='yellow btn4'
                     style={{
-                      background: "rgba(27, 28, 49, 1)",
+                      background: "rgb(0, 0, 0)",
                       fontWeight: "700",
                       margin: "15px",
                       color: "white",
