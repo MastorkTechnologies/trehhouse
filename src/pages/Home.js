@@ -677,8 +677,8 @@ function Home() {
                 transition={{
                   type: "tween",
                   ease: "easeOut",
-                  duration: 1,
-                  delay: 0.4,
+                  duration: 2,
+                  delay: 1.2,
                 }}
                 className='sustain'
               >
@@ -718,7 +718,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.4 }}
+                transition={{ duration: 2, delay: 1.2 }}
                 viewport={{ once: true }}
                 className='pt1'
               >
@@ -742,7 +742,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.4 }}
+                transition={{ duration: 2, delay: 1.2 }}
                 viewport={{ once: true }}
                 className='pt2'
               >
@@ -766,7 +766,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.4 }}
+                transition={{ duration: 2, delay: 1.2 }}
                 viewport={{ once: true }}
                 className='pt3'
               >
