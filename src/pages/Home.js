@@ -4,6 +4,7 @@ import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 
+
 function Home() {
   const [windowDimension, setWindowDimension] = useState(null);
   const [project, setProject] = useState(true);
@@ -88,7 +89,7 @@ function Home() {
               className='herorightm'
               style={{ width: "100%" }}
             >
-              <img src='./images/heroimgm.png' style={{ width: "100%" }} />
+              <img src='./images/heroimgm2.jpg' style={{ width: "100%" }} />
             </motion.div>
           </section>
           {/* <img src='./images/Companiesm.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/> */}
@@ -116,7 +117,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 5, delay: 0.3 }}
                 viewport={{ once: true }}
                 className='sustainm'
               >
@@ -157,7 +158,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.1 }}
+                transition={{ duration: 5, delay: 0.3  }}
                 viewport={{ once: true }}
                 className='pt1m'
               >
@@ -181,7 +182,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.1 }}
+                transition={{duration: 5, delay: 0.3 }}
                 viewport={{ once: true }}
                 className='pt2m'
               >
@@ -205,7 +206,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.1 }}
+                transition={{duration: 5, delay: 0.3 }}
                 viewport={{ once: true }}
                 className='pt3m'
               >
@@ -287,7 +288,7 @@ function Home() {
                     }}
                     initial='hidden'
                     whileInView='visible'
-                    transition={{ duration: 2, delay: 0.1 }}
+                    transition={{ duration: 1, delay: 0.1 }}
                     viewport={{ once: true }}
                     className='darkcardm'
                   >
@@ -320,7 +321,7 @@ function Home() {
                     }}
                     initial='hidden'
                     whileInView='visible'
-                    transition={{ duration: 2, delay: 0.1 }}
+                    transition={{ duration: 1, delay: 0.1 }}
                     viewport={{ once: true }}
                     className='darkcardm'
                   >
@@ -353,7 +354,7 @@ function Home() {
                     }}
                     initial='hidden'
                     whileInView='visible'
-                    transition={{ duration: 2, delay: 0.1 }}
+                    transition={{ duration: 1, delay: 0.1 }}
                     viewport={{ once: true }}
                     className='darkcardm'
                   >
@@ -659,9 +660,9 @@ function Home() {
                   repeatType: "reverse",
                 }}
                 className='heroright'
-                style={{ width: "100%", textAlign: "right" }}
+                style={{ width: "100%", textAlign: "right",}}
               >
-                <img src='./images/heroimg.png' style={{ width: "80%" }} />
+                <img src='./images/heroimgdes2.jpg' style={{ width: "80%" }} />
               </motion.div>
             </div>
           </section>
@@ -676,8 +677,8 @@ function Home() {
                 transition={{
                   type: "tween",
                   ease: "easeOut",
-                  duration: 2,
-                  delay: 0.2,
+                  duration: 1,
+                  delay: 0.4,
                 }}
                 className='sustain'
               >
@@ -717,7 +718,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.1 }}
+                transition={{ duration: 1, delay: 0.4 }}
                 viewport={{ once: true }}
                 className='pt1'
               >
@@ -741,7 +742,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.1 }}
+                transition={{ duration: 1, delay: 0.4 }}
                 viewport={{ once: true }}
                 className='pt2'
               >
@@ -765,7 +766,7 @@ function Home() {
                 }}
                 initial='hidden'
                 whileInView='visible'
-                transition={{ duration: 1, delay: 0.1 }}
+                transition={{ duration: 1, delay: 0.4 }}
                 viewport={{ once: true }}
                 className='pt3'
               >
