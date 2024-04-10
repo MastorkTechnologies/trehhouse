@@ -653,7 +653,7 @@ function Home() {
                 className='heroright'
                 style={{ width: "100%", textAlign: "right",}}
               >
-                <img src='./images/heroimgdes2.jpg' style={{ width: "80%" }} />
+                <img src='./images/heroimgdes2.jpg' style={{ width: "80%" , marginTop:"5%"}} />
               </motion.div>
             </div>
           </section>
