@@ -49,7 +49,7 @@ function Home() {
                 <div className='row'>
                   <div>
                     <p>Register using email address</p>
-                    <input placeholder='shakir260@gmail.com' />
+                    <input placeholder='user@gmail.com' />
                   </div>
                   <div>
                     <button style={{ background: "rgba(27, 28, 49, 1)" }}>
@@ -75,7 +75,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <motion.div
+            {/* <motion.div
               animate={{ translateY: [10, -10, 10] }}
               transition={{
                 delay: 0.2,
@@ -88,9 +88,9 @@ function Home() {
               }}
               className='herorightm'
               style={{ width: "100%" }}
-            >
+            > */}
               <img src='./images/heroimgm2.jpg' style={{ width: "100%" }} />
-            </motion.div>
+            {/* </motion.div> */}
           </section>
           {/* <img src='./images/Companiesm.png' style={{width:'100%', backgroundColor:"white", marginBottom:"0px"}}/> */}
           <section id='ourmodel'>
@@ -623,7 +623,7 @@ function Home() {
                 <div className='row'>
                   <div>
                     <p>Register using email address</p>
-                    <input placeholder='shakir260@gmail.com' />
+                    <input placeholder='user0@gmail.com' />
                   </div>
                   <div>
                     <button style={{ background: "rgba(27, 28, 49, 1)" }}>
