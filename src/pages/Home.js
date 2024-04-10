@@ -623,7 +623,7 @@ function Home() {
                 <div className='row'>
                   <div>
                     <p>Register using email address</p>
-                    <input placeholder='user0@gmail.com' />
+                    <input placeholder='user@gmail.com' />
                   </div>
                   <div>
                     <button style={{ background: "rgba(27, 28, 49, 1)" }}>
