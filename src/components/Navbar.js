@@ -45,14 +45,10 @@ const Navbar = () => {
       {isMobile ? (
         <>
           <ul className='Navbar'>
-            <li className='listItem' onClick={() => setOpenBar(!openBar)}>
-              <GiHamburgerMenu />
-            </li>
-
-            <li className='Logo'>
+          <li className='Logo'>
               <img src='./images/Trehouse.png' style={logostyle} />
             </li>
-
+            
             <li
               className='listItem purpbtnm'
               style={{ marginLeft: "2.4vw", background: "rgba(27, 28, 49, 1)" }}
@@ -63,6 +59,9 @@ const Navbar = () => {
               >
                 Contact Us
               </a>
+            </li>
+            <li className='listItem' onClick={() => setOpenBar(!openBar)}>
+              <GiHamburgerMenu />
             </li>
           </ul>
           {openBar && (
