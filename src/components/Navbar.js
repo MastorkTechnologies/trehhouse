@@ -34,9 +34,9 @@ const Navbar = () => {
   useEffect(() => {
     console.log(isSmallWindow);
     if (isSmallWindow) {
-      setLogoStyle({ width: "100%" });
+      setLogoStyle({ width: "68px" });
     } else {
-      setLogoStyle({ width: "120%" });
+      setLogoStyle({ width: "68px" });
     }
   }, [isSmallWindow]);
 
@@ -46,7 +46,7 @@ const Navbar = () => {
         <>
           <ul className='Navbar'>
           <li className='Logo'>
-              <img src='./images/Trehouse.png' style={logostyle} />
+              <img src='./images/Trehouse2.png' style={logostyle} />
             </li>
             
             <li
@@ -93,7 +93,7 @@ const Navbar = () => {
         <>
           <ul className='Navbar'>
             <li className='Logo'>
-              <img src='./images/Trehouse.png' style={logostyle} />
+              <img src='./images/Trehouse2.png' style={{width:"96px"}} />
             </li>
             <li>
               <ul className='nestedList'>
